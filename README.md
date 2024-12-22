@@ -74,3 +74,9 @@ This project provided valuable insights into the complexities of building end-to
 By following this sequence, you can replicate the project and understand the logic behind each phase.
 
 Feel free to explore the repository and reach out for any questions or collaborations!
+
+---
+
+## Dive Deeper into the Project
+
+For a detailed narrative on the concepts, challenges, and data science methodologies behind this project, read my article: **[Crafting a Data Pipeline for Gans: A Personal Journey](https://medium.com/@e.shomali.ph/crafting-a-data-pipeline-for-gans-a-personal-journey-22373b51bed6)**.
