@@ -46,11 +46,30 @@ This project provided valuable insights into the complexities of building end-to
    pip install -r requirements.txt
    ```
 4. Follow the numbered notebooks and SQL scripts in the order they appear for a structured walkthrough of the project phases.
-   - **Notebook 1**: Data collection using web scraping and APIs.
-   - **Notebook 2**: Data transformation and storage in MySQL.
-   - **Script 3**: Database schema designs and example queries
-   - **Notebook 4**: Cloud pipeline setup and automation.
-   - **Notebook 5**: Reusable Python functions that automate key processes
+   - ### **Notebook: 1_Gans_Project**
+   
+     #### 1. Scraping Basic Information
+     Learn how to scrape the essential data required for the project using web scraping techniques. This section covers the methods to extract raw data efficiently and prepare it for further processing.
+
+     #### 2. Accessing the Data Using APIs with Keys
+     Gain an understanding of how to access third-party data by leveraging APIs. This section includes the setup of API keys and demonstrates how to query data from external sources using these keys.
+
+     #### 3. Sending & Retrieving Information Between SQL and Python 
+     Explore how to send data from this notebook to an SQL database and retrieve information back into Python. This section highlights key interactions with an SQL database, including creating tables, inserting records, and querying data from the database. (IN this section you should use Script: 2_Gans-Schema in MySQL.)
+
+     #### 4. Pushing Static Data from Python to Google Cloud
+     Learn how to push data from Python into Google Cloud storage. This section will guide you through the process of setting up Google Cloud, preparing data, and transferring it to cloud services for storage or further processing.
+
+   - ### **Script: 2_Gans-Schema**
+   
+     #### **SQL Database Schema Designs and Example Queries**
+     This script provides detailed database schema designs tailored to the project’s needs. 
+
+   - ### **Notebook: 3_Cloud_Functions**
+
+     #### **Reusable Python Functions for Google Cloud**
+     In this notebook, you'll find reusable Python functions that automate critical processes within Google Cloud. These functions include handling cloud storage, managing cloud functions, and automating tasks that interact with Google Cloud services.
+
 
 By following this sequence, you can replicate the project and understand the logic behind each phase.
 
